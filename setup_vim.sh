@@ -21,3 +21,4 @@ echo "alias l='ls -CF'" >> ~/.bashrc
 
 # this one is not a vim related, but is very useful
 git config --global alias.lga "log --graph --oneline --all --decorate"
+git config --global core.editor "vim"
