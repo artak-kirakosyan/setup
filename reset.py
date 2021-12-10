@@ -51,9 +51,12 @@ def reset():
     pycharm_low = "pycharm"
     intelij_up = "IntelliJIdea*"
     intelij_low = "idea"
+    webstorm_up = "WebStorm*"
+    webstorm_low = "webstorm"
     _reset(pycharm_up, pycharm_low)
     _reset(intelij_up, intelij_low)
-
+    _reset(webstorm_up, webstorm_low)
+     
 
 def update_last_reset_date(
         new_reset_date: datetime.datetime,
