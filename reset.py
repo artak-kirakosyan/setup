@@ -6,7 +6,7 @@ home_dir = os.path.expanduser("~")
 LAST_RESET_FILE = ".last_reset_date.json"
 last_reset_file_path = os.path.join(home_dir, LAST_RESET_FILE)
 DAY_IN_SECONDS = datetime.timedelta(days=1).total_seconds()
-RESET_THRESHOLD_IN_DAYS = 25
+RESET_THRESHOLD_IN_DAYS = 22
 
 
 def get_last_reset_date(
