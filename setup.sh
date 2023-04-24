@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+set -o xtrace
 # Install packages
 sudo apt update
 sudo apt install git vim htop
@@ -78,3 +80,5 @@ sudo snap install intellij-idea-ultimate --channel=2021.1/stable
 sudo snap install pycharm-professional --channel=2021.1/stable
 sudo snap install webstorm --channel=2021.1/stable
 
+
+set +o xtrace
