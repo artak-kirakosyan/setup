@@ -64,3 +64,7 @@ cd .vim/bundle
 git clone https://github.com/artak-kirakosyan/indentLine.git
 #---------------------------------------------------------------------
 
+
+# Import dock settings
+cd ${REPO_DIR}
+dcong load / < dconf_org_gnome_shell_extensions_dash_to_dock
