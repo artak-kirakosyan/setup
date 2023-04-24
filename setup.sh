@@ -50,6 +50,7 @@ git config --global core.editor "vim"
 #---------------------------------------------------------------------
 mkdir -p ${SCRIPTS_DIR}
 cp run_reset.sh "${SCRIPTS_DIR}"
+chmod 755 run_reset.sh
 cp reset.py "${SCRIPTS_DIR}"
 echo "@reboot ${SCRIPTS_DIR}/run_reset.sh" | crontab -u $(whoami) -
 #---------------------------------------------------------------------
