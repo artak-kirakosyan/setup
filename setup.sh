@@ -71,3 +71,10 @@ git clone https://github.com/artak-kirakosyan/indentLine.git
 # Import dock settings
 cd ${REPO_DIR}
 dcong load / < dconf_org_gnome_shell_extensions_dash_to_dock
+
+
+# Install dev soft
+sudo snap install intellij-idea-ultimate --channel=2021.1/stable
+sudo snap install pycharm-professional --channel=2021.1/stable
+sudo snap install webstorm --channel=2021.1/stable
+
